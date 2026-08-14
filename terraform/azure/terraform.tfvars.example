@@ -1,0 +1,6 @@
+project  = "fleet"
+location = "eastus"
+
+# Flip to true only when Azure infra + generator are proven working —
+# this starts the 14-day Databricks trial clock.
+enable_databricks = false

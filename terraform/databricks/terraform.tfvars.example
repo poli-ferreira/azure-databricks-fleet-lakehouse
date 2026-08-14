@@ -1,0 +1,5 @@
+# Paste values from the azure stack:
+#   cd ../azure && terraform output
+workspace_url        = "https://adb-1234567890123456.7.azuredatabricks.net"
+access_connector_id  = "/subscriptions/.../resourceGroups/rg-fleet-lakehouse/providers/Microsoft.Databricks/accessConnectors/dbac-fleet-unity"
+storage_account_name = "stfleetlakeabc123"

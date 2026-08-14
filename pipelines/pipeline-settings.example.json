@@ -1,0 +1,14 @@
+{
+  "name": "fleet-telemetry-pipeline",
+  "catalog": "fleet",
+  "schema": "bronze",
+  "continuous": false,
+  "development": true,
+  "serverless": true,
+  "configuration": {
+    "storage_account": "REPLACE_WITH_terraform_output_storage_account_name"
+  },
+  "libraries": [
+    { "glob": { "include": "pipelines/*.py" } }
+  ]
+}
